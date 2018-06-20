@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	  <div class="row">
+			<div class="col text-center">
+				<button ion-button round (click)="scan()">Scan QR Code </button>
+			</div>
+		</div>
+		<ion-item> 
+			<ion-input type="text" [(ngModel)]="barcode" placeholder="Enter Product Code"> </ion-input>
+		</ion-item>
+
+</ion-content>

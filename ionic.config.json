@@ -1,0 +1,8 @@
+{
+  "name": "whirl-qr",
+  "app_id": "51069dc3",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
